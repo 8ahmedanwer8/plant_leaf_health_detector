@@ -10,7 +10,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Activa
 from tensorflow.keras.callbacks import TensorBoard
 
 NAME = f'plant leaf good or bad predictor-{int(time.time())}'
-poo = TensorBoard(log_dir=f'./logs')
+tb = TensorBoard(log_dir=f'./logs')
 
 pickle_in = open('X.pkl', 'rb')
 X = pickle.load(pickle_in)
