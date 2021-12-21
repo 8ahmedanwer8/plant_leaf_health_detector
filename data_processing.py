@@ -10,7 +10,7 @@ import numpy as np
 
 
 
-DIRECTORY = r'C:\Users\sahme\Desktop\Collection\Sublime Files\kaggle datasets\archive\PlantVillage Dataset (Labeled)\Color Images'
+DIRECTORY = r'...PlantVillage Dataset (Labeled)\Color Images'
 CATEGORIES = [
 'Potato___Early_blight', 'Potato___Late_blight', 
 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot',
